@@ -15,7 +15,7 @@ Note: read data from data folder and all generated figures are saved in figures/
    ```
 
 2. prompts generation with llama2(predefined forground and background).
-[![docs](https://img.shields.io/badge/textgen-llama2-blue)](https://github.com/google-research/syn-rep-learn/tree/main/SynCLR/synthesis/syn_text)
+[![docs](https://img.shields.io/badge/image-relighting)](https://github.com/APikielny/image-relighting)
 ```
 bash text_gen.sh
 ```
