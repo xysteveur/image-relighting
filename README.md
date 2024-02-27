@@ -1,22 +1,22 @@
-# Image to caption generation and in context learning for prompt/text generation
+# Image Relighting
 
 Note: read data from data folder and all generated figures are saved in figures/
 
-1. caption generation based on blip2 model.
+1. Run image Relighting.
 
-   a. install IPython
+   a. global relighting
    ```shell
-   pip install 
+   python relight.py --source_image img_name (pls refer to relight.sh)
    ```
 
-   b. run python script
+   b. local relighting
    ```shell
-   python image_to_text.py
+   python test_network.py
    ```
 
-2. prompts generation with llama2(predefined forground and background).
+2. alternatively, you can also run bash script.
 [![docs](https://img.shields.io/badge/image-relighting)](https://github.com/APikielny/image-relighting)
 ```
-bash text_gen.sh
+bash relight.sh
 ```
 
