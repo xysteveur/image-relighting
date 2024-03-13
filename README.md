@@ -14,9 +14,9 @@ Note: read data from data folder and all generated figures are saved in figures/
    python test_network.py
    ```
 
-2. alternatively, you can also run bash script.
+2. alternatively, you can also run bash script to run local and glabal relight simultanously.
 [![docs](https://img.shields.io/badge/image-relighting)](https://github.com/APikielny/image-relighting)
 ```
-bash relight.sh
+bash relight_2.sh
 ```
 
